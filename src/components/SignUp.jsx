@@ -19,7 +19,7 @@ const SignUp = () => {
                 // new user has been created
                 const createdAt = result.user?.metadata?.creationTime;
                 const user = { email, password, createdAt: createdAt };
-                fetch('https://espresso-emporium-server-esgnol2jn-niajs-projects.vercel.app/user', {
+                fetch('espresso-emporium-server-beta-opal.vercel.app/user', {
                     method: 'POST',
                     headers: {
                         'content-type': 'application/json'

@@ -20,7 +20,7 @@ const AddCoffee = () => {
         console.log(newCoffee);
 
         // send data to the server
-        fetch('https://espresso-emporium-server-esgnol2jn-niajs-projects.vercel.app/coffee', {
+        fetch('espresso-emporium-server-beta-opal.vercel.app/coffee', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'
